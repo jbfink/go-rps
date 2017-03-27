@@ -10,5 +10,5 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("enter guess: ")
 	guess, _ := reader.ReadString('\n')
-	fmt.Println(guess)
+	fmt.Println("You entered:", guess)
 }
